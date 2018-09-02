@@ -6,6 +6,10 @@
 
 uint8_t tempdata[30];
 
+/*
+  Slave Select mapped to D13/PD2
+  Interrupt mapped to D14/PB2
+*/
 RH_RF95 CR03;
 
 void setup()
