@@ -27,7 +27,7 @@ void setup()
   // Failure to do that will result in extremely low transmit powers.
 
   //CR03.setModemConfig(CR03.Bw31_25Cr48Sf512);
-  CR03.setFrequency(433.0);
+  CR03.setFrequency(CR03_FREQUENCY);
   CR03.setTxPower(23, false);
 }
 
